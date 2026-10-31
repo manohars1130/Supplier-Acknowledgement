@@ -1,0 +1,5 @@
+output/
+output_starter/
+__pycache__/
+*.pyc
+.pytest_cache/
