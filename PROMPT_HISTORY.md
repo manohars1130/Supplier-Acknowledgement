@@ -77,3 +77,18 @@ I ran the project locally, generated the frontend data, and started the dashboar
 I used AI to troubleshoot command-line errors and clarify the run steps. I reviewed the commands and outputs myself. Before submission, I will run the documented setup and verification steps and report any limitations honestly.
 
 ```
+
+Project development and my contribution
+
+I built the project in stages and used Git commits to record how it evolved:
+
+- 038ad63 – Added the seeded workflow data generator for purchase orders, supplier acknowledgement revisions, change requests, approvals, plan versions, and notifications.
+- 79c2fe7 – Added an independent validator for data relationships, formats, arithmetic, lifecycle rules, and business exceptions.
+- 512ab33 – Added KPI evaluation, detector comparisons against ground truth, and a reproducibility checker.
+- 699273c – Added automated tests for dataset volume, validation, approval behavior, detection, leakage, and determinism.
+- 56c4f8a – Added the static dashboard and the tool that prepares data for its frontend, including overview, change queue, exceptions, and event replay.
+- eea70d9 – Added setup and verification instructions, design reasoning, AI usage notes, and this prompt history.
+- 51a2c72 – Recorded the complete supplier acknowledgement project.
+
+I used AI as a coding and troubleshooting assistant for some implementation and frontend tasks. I chose the project direction, ran the commands locally, reviewed the dashboard, and checked the generated output. The commit history records the implementation stages. 
+I will describe tests as verified only when I have run them successfully myself.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Supplier Acknowledgement, Promise-Date & Change-Impact Platform
 
 Synthetic data generator + validator + evaluator + dashboard for the workflow
@@ -71,3 +72,7 @@ Generated documentation (field-level data dictionary with types / required / all
 Entities: Supplier, PurchaseOrder, POLine, Acknowledgement(+Line), PromiseDate, ChangeRequest(+Line), Approval, InventoryPlan, ProductionOrder (N:M to POLine via bridge), Notification, plus warehouse / user / sku masters, `change_impact` and an append-only `status_event` log.
 IDs: `PO-2026-000001`, `ACK-<PO>-01`, `CHG-<PO>-000001`, `APR-<CHG>-01`, `NOT-2026-000001`.
 Cardinalities and lifecycles per table: `output/docs/data_dictionary.md`.
+=======
+# Supplier-Acknowledgement
+Synthetic data generator, validator and dashboard for supplier acknowledgements, promise dates, change approvals and downstream schedule impact. Seeded, reproducible, with labelled edge cases and separate ground truth.
+>>>>>>> 8e44d4bdd9545fcc67f84c88dda80d2896492180
