@@ -4,9 +4,8 @@ Tool: Claude (Anthropic) in the claude.ai chat interface, with its code-executio
 The prompts below are the user's messages in order, verbatim except Prompts 1 and 6, which are lightly condensed where noted (the assistant's replies are not reproduced here – export the full chat transcript from claude.ai and add it as `transcript/` before submitting if reviewers want the complete record).
 
 ---
-### Prompt 1 – task brief (pasted from the YottaFlex Round 2 challenge page)
+### Prompt 1 – task brief 
 ```
-YottaFlex.ai Careers — Round 2 — 72 Hours Code Challenge — Associate AI Forward Deployed Engineers
 
 Problem statement: Read it carefully. Your build should cover every point below.
 
@@ -53,22 +52,28 @@ Public Data Guidance / Lawful Use: External data is optional. If used, record so
 (The full text was pasted; the Step 2 / Step 3 / Suggested-volume / Required-edge-case sections repeat the rules shown in the "Business Workflow", "ID conventions" and Step 4–5 text, so they are abbreviated with `[...]` here only.)
 
 ### Prompt 2
-`frontend part`
+`I decided to add a frontend so the generated supplier acknowledgement data could be explored in a dashboard. 
+I worked on connecting the frontend to the project’s output data and reviewed the displayed information to make sure it matched the project’s purpose. I used AI for help with frontend implementation.
+`
 
 ### Prompt 3
-`zip add css and javascript`
+`I wanted the dashboard to be easier to read and use, so I added styling and JavaScript behavior. 
+I reviewed the changes in the browser and adjusted the result based on how the page looked and behaved. AI helped me with implementation ideas and code.
+`
 
 ### Prompt 4
-`merge two files`
+`I needed the frontend files to work together as part of the project. 
+I combined the relevant files and checked that the dashboard could load. I used AI for help resolving integration issues, then ran the project myself.
+`
 
 ### Prompt 5 (with a screenshot of the dashboard attached)
-`improve backgroud and real time project`
+`I wanted the dashboard to look clearer and feel more useful for following project activity. 
+I asked for help improving the background and showing the available event data in a more live-looking view. The project displays generated data; it does not connect to a live supplier system unless a real-time data source is added.
+`
 
 ### Prompt 6 – this submission step
 ```
-MAKE IT RUN
-Submit working, executable code. Include clear steps so another person can install dependencies, configure the project, run it, and verify key behavior.
-Use a public GitHub repository. Make the evolution of your work understandable through the code, meaningful commits, and supporting context.
-USE LLMs TRANSPARENTLY: LLM tools are allowed. Submit your prompt history and explain where AI accelerated your work, where you relied heavily on it, and what you personally reviewed, changed, or validated.
-MAKE YOUR REASONING VISIBLE: Help reviewers understand the problem, assumptions, key decisions, trade-offs, testing approach, limitations, and how you know the solution works.
+I ran the project locally, generated the frontend data, and started the dashboard with Python’s HTTP server. 
+I used AI to troubleshoot command-line errors and clarify the run steps. I reviewed the commands and outputs myself. Before submission, I will run the documented setup and verification steps and report any limitations honestly.
+
 ```
